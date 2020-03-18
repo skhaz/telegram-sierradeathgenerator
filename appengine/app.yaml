@@ -1,0 +1,8 @@
+runtime: python37
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  A12N: <>

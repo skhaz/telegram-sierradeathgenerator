@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "</css/styles.css?v=1.0>;rel=preload;as=style,</css/tachyons.min.css>;rel=preload;as=style,</imgs/throbber.gif>;rel=preload;as=image,</js/scripts.js>;rel=preload;as=script,</js/generators.js>;rel=preload;as=script,</js/gif/b64.js>;rel=preload;as=script,</js/gif/GIFEncoder.js>;rel=preload;as=script,</js/gif/NeuQuant.js>;rel=preload;as=script,</js/gif/LZWEncoder.js>;rel=preload;as=script,</js/linebreak.js>;rel=preload;as=script,</js/jquery-3.2.1.min.js>;rel=preload;as=script,</js/jquery.waitforimages.min.js>;rel=preload;as=script"
+          }
+        ]
+      }
+    ]
+  }
+}

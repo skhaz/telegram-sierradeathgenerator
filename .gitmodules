@@ -1,0 +1,3 @@
+[submodule "firebase/public"]
+	path = firebase/public
+	url = git@github.com:foone/SierraDeathGenerator.git

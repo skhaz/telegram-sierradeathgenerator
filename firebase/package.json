@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "firebase-tools": "^7.14.0"
+  },
+  "scripts": {
+    "serve": "firebase serve --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  }
+}
